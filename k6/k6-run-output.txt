@@ -1,0 +1,446 @@
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+
+     execution: local
+        script: post-comments-test.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 10 max VUs, 1m0s max duration (incl. graceful stop):
+              * default: 10 looping VUs for 30s (gracefulStop: 30s)
+
+time="2026-10-20T13:24:11+04:00" level=info msg="GET /posts/1/comments -> status: 200, response time: 33.4608 ms" source=console
+time="2026-10-20T13:24:11+04:00" level=info msg="GET /posts/7/comments -> status: 200, response time: 35.3023 ms" source=console
+time="2026-10-20T13:24:11+04:00" level=info msg="GET /posts/4/comments -> status: 200, response time: 37.4484 ms" source=console
+time="2026-10-20T13:24:11+04:00" level=info msg="GET /posts/7/comments -> status: 200, response time: 36.2395 ms" source=console
+time="2026-10-20T13:24:11+04:00" level=info msg="GET /posts/2/comments -> status: 200, response time: 34.6529 ms" source=console
+time="2026-10-20T13:24:11+04:00" level=info msg="GET /posts/7/comments -> status: 200, response time: 34.03 ms" source=console
+time="2026-10-20T13:24:11+04:00" level=info msg="GET /posts/5/comments -> status: 200, response time: 36.917 ms" source=console
+time="2026-10-20T13:24:11+04:00" level=info msg="GET /posts/9/comments -> status: 200, response time: 36.3671 ms" source=console
+time="2026-10-20T13:24:11+04:00" level=info msg="GET /posts/10/comments -> status: 200, response time: 36.8985 ms" source=console
+time="2026-10-20T13:24:11+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 37.4484 ms" source=console
+
+running (0m01.0s), 10/10 VUs, 0 complete and 0 interrupted iterations
+default   [   3% ] 10 VUs  01.0s/30s
+time="2026-10-20T13:24:12+04:00" level=info msg="GET /posts/8/comments -> status: 200, response time: 12.4464 ms" source=console
+time="2026-10-20T13:24:12+04:00" level=info msg="GET /posts/4/comments -> status: 200, response time: 9.4344 ms" source=console
+time="2026-10-20T13:24:12+04:00" level=info msg="GET /posts/5/comments -> status: 200, response time: 10.5975 ms" source=console
+time="2026-10-20T13:24:12+04:00" level=info msg="GET /posts/9/comments -> status: 200, response time: 11.5326 ms" source=console
+time="2026-10-20T13:24:12+04:00" level=info msg="GET /posts/10/comments -> status: 200, response time: 11.0061 ms" source=console
+time="2026-10-20T13:24:12+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 14.0227 ms" source=console
+time="2026-10-20T13:24:12+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 14.5309 ms" source=console
+time="2026-10-20T13:24:12+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 14.5309 ms" source=console
+time="2026-10-20T13:24:12+04:00" level=info msg="GET /posts/5/comments -> status: 200, response time: 13.2476 ms" source=console
+time="2026-10-20T13:24:12+04:00" level=info msg="GET /posts/10/comments -> status: 200, response time: 14.0227 ms" source=console
+
+running (0m02.0s), 10/10 VUs, 10 complete and 0 interrupted iterations
+default   [   7% ] 10 VUs  02.0s/30s
+time="2026-10-20T13:24:13+04:00" level=info msg="GET /posts/4/comments -> status: 200, response time: 7.7621 ms" source=console
+time="2026-10-20T13:24:13+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 11.0787 ms" source=console
+time="2026-10-20T13:24:13+04:00" level=info msg="GET /posts/4/comments -> status: 200, response time: 8.7709 ms" source=console
+time="2026-10-20T13:24:13+04:00" level=info msg="GET /posts/5/comments -> status: 200, response time: 9.7849 ms" source=console
+time="2026-10-20T13:24:13+04:00" level=info msg="GET /posts/10/comments -> status: 200, response time: 9.9983 ms" source=console
+time="2026-10-20T13:24:13+04:00" level=info msg="GET /posts/10/comments -> status: 200, response time: 9.9983 ms" source=console
+time="2026-10-20T13:24:13+04:00" level=info msg="GET /posts/8/comments -> status: 200, response time: 11.0117 ms" source=console
+time="2026-10-20T13:24:13+04:00" level=info msg="GET /posts/9/comments -> status: 200, response time: 13.5116 ms" source=console
+time="2026-10-20T13:24:13+04:00" level=info msg="GET /posts/10/comments -> status: 200, response time: 11.5244 ms" source=console
+time="2026-10-20T13:24:13+04:00" level=info msg="GET /posts/5/comments -> status: 200, response time: 11.5244 ms" source=console
+
+running (0m03.0s), 10/10 VUs, 20 complete and 0 interrupted iterations
+default   [  10% ] 10 VUs  03.0s/30s
+time="2026-10-20T13:24:14+04:00" level=info msg="GET /posts/10/comments -> status: 200, response time: 11.0266 ms" source=console
+time="2026-10-20T13:24:14+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 11.0266 ms" source=console
+time="2026-10-20T13:24:14+04:00" level=info msg="GET /posts/7/comments -> status: 200, response time: 10.4823 ms" source=console
+time="2026-10-20T13:24:14+04:00" level=info msg="GET /posts/7/comments -> status: 200, response time: 11.645 ms" source=console
+time="2026-10-20T13:24:14+04:00" level=info msg="GET /posts/3/comments -> status: 200, response time: 7.7647 ms" source=console
+time="2026-10-20T13:24:14+04:00" level=info msg="GET /posts/2/comments -> status: 200, response time: 8.4084 ms" source=console
+time="2026-10-20T13:24:14+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 9.281 ms" source=console
+time="2026-10-20T13:24:14+04:00" level=info msg="GET /posts/10/comments -> status: 200, response time: 9.281 ms" source=console
+time="2026-10-20T13:24:14+04:00" level=info msg="GET /posts/10/comments -> status: 200, response time: 9.281 ms" source=console
+time="2026-10-20T13:24:14+04:00" level=info msg="GET /posts/8/comments -> status: 200, response time: 10.1172 ms" source=console
+
+running (0m04.0s), 10/10 VUs, 30 complete and 0 interrupted iterations
+default   [  13% ] 10 VUs  04.0s/30s
+time="2026-10-20T13:24:15+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 9.771 ms" source=console
+time="2026-10-20T13:24:15+04:00" level=info msg="GET /posts/7/comments -> status: 200, response time: 10.8021 ms" source=console
+time="2026-10-20T13:24:15+04:00" level=info msg="GET /posts/7/comments -> status: 200, response time: 11.527 ms" source=console
+time="2026-10-20T13:24:15+04:00" level=info msg="GET /posts/4/comments -> status: 200, response time: 11.0943 ms" source=console
+time="2026-10-20T13:24:15+04:00" level=info msg="GET /posts/8/comments -> status: 200, response time: 8.9824 ms" source=console
+time="2026-10-20T13:24:15+04:00" level=info msg="GET /posts/9/comments -> status: 200, response time: 9.7862 ms" source=console
+time="2026-10-20T13:24:15+04:00" level=info msg="GET /posts/4/comments -> status: 200, response time: 8.5528 ms" source=console
+time="2026-10-20T13:24:15+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 9.6868 ms" source=console
+time="2026-10-20T13:24:15+04:00" level=info msg="GET /posts/8/comments -> status: 200, response time: 12.4258 ms" source=console
+time="2026-10-20T13:24:15+04:00" level=info msg="GET /posts/4/comments -> status: 200, response time: 13.9448 ms" source=console
+
+running (0m05.0s), 10/10 VUs, 40 complete and 0 interrupted iterations
+default   [  17% ] 10 VUs  05.0s/30s
+time="2026-10-20T13:24:16+04:00" level=info msg="GET /posts/7/comments -> status: 200, response time: 11.029 ms" source=console
+time="2026-10-20T13:24:16+04:00" level=info msg="GET /posts/1/comments -> status: 200, response time: 13.1052 ms" source=console
+time="2026-10-20T13:24:16+04:00" level=info msg="GET /posts/8/comments -> status: 200, response time: 11.6026 ms" source=console
+time="2026-10-20T13:24:16+04:00" level=info msg="GET /posts/3/comments -> status: 200, response time: 11.0968 ms" source=console
+time="2026-10-20T13:24:16+04:00" level=info msg="GET /posts/5/comments -> status: 200, response time: 10.8493 ms" source=console
+time="2026-10-20T13:24:16+04:00" level=info msg="GET /posts/2/comments -> status: 200, response time: 12.1648 ms" source=console
+time="2026-10-20T13:24:16+04:00" level=info msg="GET /posts/4/comments -> status: 200, response time: 7.3398 ms" source=console
+time="2026-10-20T13:24:16+04:00" level=info msg="GET /posts/2/comments -> status: 200, response time: 13.1754 ms" source=console
+time="2026-10-20T13:24:16+04:00" level=info msg="GET /posts/3/comments -> status: 200, response time: 11.1673 ms" source=console
+time="2026-10-20T13:24:16+04:00" level=info msg="GET /posts/9/comments -> status: 200, response time: 8.3228 ms" source=console
+
+running (0m06.0s), 10/10 VUs, 50 complete and 0 interrupted iterations
+default   [  20% ] 10 VUs  06.0s/30s
+time="2026-10-20T13:24:17+04:00" level=info msg="GET /posts/9/comments -> status: 200, response time: 13.9963 ms" source=console
+time="2026-10-20T13:24:17+04:00" level=info msg="GET /posts/7/comments -> status: 200, response time: 11.6611 ms" source=console
+time="2026-10-20T13:24:17+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 11.6611 ms" source=console
+time="2026-10-20T13:24:17+04:00" level=info msg="GET /posts/2/comments -> status: 200, response time: 12.8662 ms" source=console
+time="2026-10-20T13:24:17+04:00" level=info msg="GET /posts/9/comments -> status: 200, response time: 9.9665 ms" source=console
+time="2026-10-20T13:24:17+04:00" level=info msg="GET /posts/3/comments -> status: 200, response time: 13.4835 ms" source=console
+time="2026-10-20T13:24:17+04:00" level=info msg="GET /posts/7/comments -> status: 200, response time: 13.4835 ms" source=console
+time="2026-10-20T13:24:17+04:00" level=info msg="GET /posts/4/comments -> status: 200, response time: 12.8277 ms" source=console
+time="2026-10-20T13:24:17+04:00" level=info msg="GET /posts/10/comments -> status: 200, response time: 12.8277 ms" source=console
+time="2026-10-20T13:24:17+04:00" level=info msg="GET /posts/8/comments -> status: 200, response time: 20.8946 ms" source=console
+
+running (0m07.0s), 10/10 VUs, 60 complete and 0 interrupted iterations
+default   [  23% ] 10 VUs  07.0s/30s
+time="2026-10-20T13:24:18+04:00" level=info msg="GET /posts/5/comments -> status: 200, response time: 9.1005 ms" source=console
+time="2026-10-20T13:24:18+04:00" level=info msg="GET /posts/4/comments -> status: 200, response time: 10.4637 ms" source=console
+time="2026-10-20T13:24:18+04:00" level=info msg="GET /posts/5/comments -> status: 200, response time: 10.2814 ms" source=console
+time="2026-10-20T13:24:18+04:00" level=info msg="GET /posts/5/comments -> status: 200, response time: 12.7145 ms" source=console
+time="2026-10-20T13:24:18+04:00" level=info msg="GET /posts/9/comments -> status: 200, response time: 10.2814 ms" source=console
+time="2026-10-20T13:24:18+04:00" level=info msg="GET /posts/9/comments -> status: 200, response time: 12.2806 ms" source=console
+time="2026-10-20T13:24:18+04:00" level=info msg="GET /posts/5/comments -> status: 200, response time: 12.2806 ms" source=console
+time="2026-10-20T13:24:18+04:00" level=info msg="GET /posts/7/comments -> status: 200, response time: 12.2806 ms" source=console
+time="2026-10-20T13:24:18+04:00" level=info msg="GET /posts/2/comments -> status: 200, response time: 12.2806 ms" source=console
+time="2026-10-20T13:24:18+04:00" level=info msg="GET /posts/8/comments -> status: 200, response time: 9.3126 ms" source=console
+
+running (0m08.0s), 10/10 VUs, 70 complete and 0 interrupted iterations
+default   [  27% ] 10 VUs  08.0s/30s
+time="2026-10-20T13:24:19+04:00" level=info msg="GET /posts/1/comments -> status: 200, response time: 9.8576 ms" source=console
+time="2026-10-20T13:24:19+04:00" level=info msg="GET /posts/5/comments -> status: 200, response time: 11.5328 ms" source=console
+time="2026-10-20T13:24:19+04:00" level=info msg="GET /posts/4/comments -> status: 200, response time: 8.9133 ms" source=console
+time="2026-10-20T13:24:19+04:00" level=info msg="GET /posts/9/comments -> status: 200, response time: 9.5265 ms" source=console
+time="2026-10-20T13:24:19+04:00" level=info msg="GET /posts/4/comments -> status: 200, response time: 10.6589 ms" source=console
+time="2026-10-20T13:24:19+04:00" level=info msg="GET /posts/5/comments -> status: 200, response time: 10.2552 ms" source=console
+time="2026-10-20T13:24:19+04:00" level=info msg="GET /posts/7/comments -> status: 200, response time: 10.2552 ms" source=console
+time="2026-10-20T13:24:19+04:00" level=info msg="GET /posts/10/comments -> status: 200, response time: 9.5135 ms" source=console
+time="2026-10-20T13:24:19+04:00" level=info msg="GET /posts/7/comments -> status: 200, response time: 10.2552 ms" source=console
+time="2026-10-20T13:24:19+04:00" level=info msg="GET /posts/10/comments -> status: 200, response time: 10.2552 ms" source=console
+
+running (0m09.0s), 10/10 VUs, 80 complete and 0 interrupted iterations
+default   [  30% ] 10 VUs  09.0s/30s
+time="2026-10-20T13:24:20+04:00" level=info msg="GET /posts/7/comments -> status: 200, response time: 9.6986 ms" source=console
+time="2026-10-20T13:24:20+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 10.2092 ms" source=console
+time="2026-10-20T13:24:20+04:00" level=info msg="GET /posts/7/comments -> status: 200, response time: 10.5868 ms" source=console
+time="2026-10-20T13:24:20+04:00" level=info msg="GET /posts/10/comments -> status: 200, response time: 7.7984 ms" source=console
+time="2026-10-20T13:24:20+04:00" level=info msg="GET /posts/5/comments -> status: 200, response time: 10.5868 ms" source=console
+time="2026-10-20T13:24:20+04:00" level=info msg="GET /posts/7/comments -> status: 200, response time: 8.9231 ms" source=console
+time="2026-10-20T13:24:20+04:00" level=info msg="GET /posts/2/comments -> status: 200, response time: 8.9231 ms" source=console
+time="2026-10-20T13:24:20+04:00" level=info msg="GET /posts/3/comments -> status: 200, response time: 8.9231 ms" source=console
+time="2026-10-20T13:24:20+04:00" level=info msg="GET /posts/10/comments -> status: 200, response time: 11.7573 ms" source=console
+time="2026-10-20T13:24:20+04:00" level=info msg="GET /posts/10/comments -> status: 200, response time: 10.0609 ms" source=console
+
+running (0m10.0s), 10/10 VUs, 90 complete and 0 interrupted iterations
+default   [  33% ] 10 VUs  10.0s/30s
+time="2026-10-20T13:24:21+04:00" level=info msg="GET /posts/1/comments -> status: 200, response time: 12.4902 ms" source=console
+time="2026-10-20T13:24:21+04:00" level=info msg="GET /posts/2/comments -> status: 200, response time: 12.4902 ms" source=console
+time="2026-10-20T13:24:21+04:00" level=info msg="GET /posts/4/comments -> status: 200, response time: 13.0044 ms" source=console
+time="2026-10-20T13:24:21+04:00" level=info msg="GET /posts/3/comments -> status: 200, response time: 13.4333 ms" source=console
+time="2026-10-20T13:24:21+04:00" level=info msg="GET /posts/4/comments -> status: 200, response time: 12.2817 ms" source=console
+time="2026-10-20T13:24:21+04:00" level=info msg="GET /posts/3/comments -> status: 200, response time: 17.1426 ms" source=console
+time="2026-10-20T13:24:21+04:00" level=info msg="GET /posts/4/comments -> status: 200, response time: 14.9372 ms" source=console
+time="2026-10-20T13:24:21+04:00" level=info msg="GET /posts/4/comments -> status: 200, response time: 13.7885 ms" source=console
+time="2026-10-20T13:24:21+04:00" level=info msg="GET /posts/10/comments -> status: 200, response time: 15.4475 ms" source=console
+time="2026-10-20T13:24:21+04:00" level=info msg="GET /posts/8/comments -> status: 200, response time: 17.6256 ms" source=console
+
+running (0m11.0s), 10/10 VUs, 100 complete and 0 interrupted iterations
+default   [  37% ] 10 VUs  11.0s/30s
+time="2026-10-20T13:24:22+04:00" level=info msg="GET /posts/2/comments -> status: 200, response time: 11.9409 ms" source=console
+time="2026-10-20T13:24:22+04:00" level=info msg="GET /posts/2/comments -> status: 200, response time: 10.78 ms" source=console
+time="2026-10-20T13:24:22+04:00" level=info msg="GET /posts/3/comments -> status: 200, response time: 9.5565 ms" source=console
+time="2026-10-20T13:24:22+04:00" level=info msg="GET /posts/9/comments -> status: 200, response time: 11.7874 ms" source=console
+time="2026-10-20T13:24:22+04:00" level=info msg="GET /posts/10/comments -> status: 200, response time: 11.7055 ms" source=console
+time="2026-10-20T13:24:22+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 16.2631 ms" source=console
+time="2026-10-20T13:24:22+04:00" level=info msg="GET /posts/1/comments -> status: 200, response time: 16.2631 ms" source=console
+time="2026-10-20T13:24:22+04:00" level=info msg="GET /posts/2/comments -> status: 200, response time: 14.0782 ms" source=console
+time="2026-10-20T13:24:22+04:00" level=info msg="GET /posts/8/comments -> status: 200, response time: 12.4568 ms" source=console
+time="2026-10-20T13:24:22+04:00" level=info msg="GET /posts/9/comments -> status: 200, response time: 12.9062 ms" source=console
+
+running (0m12.0s), 10/10 VUs, 110 complete and 0 interrupted iterations
+default   [  40% ] 10 VUs  12.0s/30s
+time="2026-10-20T13:24:23+04:00" level=info msg="GET /posts/3/comments -> status: 200, response time: 14.154 ms" source=console
+time="2026-10-20T13:24:23+04:00" level=info msg="GET /posts/8/comments -> status: 200, response time: 12.3857 ms" source=console
+time="2026-10-20T13:24:23+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 13.4789 ms" source=console
+time="2026-10-20T13:24:23+04:00" level=info msg="GET /posts/8/comments -> status: 200, response time: 13.4789 ms" source=console
+time="2026-10-20T13:24:23+04:00" level=info msg="GET /posts/7/comments -> status: 200, response time: 10.913 ms" source=console
+time="2026-10-20T13:24:23+04:00" level=info msg="GET /posts/7/comments -> status: 200, response time: 10.913 ms" source=console
+time="2026-10-20T13:24:23+04:00" level=info msg="GET /posts/5/comments -> status: 200, response time: 10.913 ms" source=console
+time="2026-10-20T13:24:23+04:00" level=info msg="GET /posts/9/comments -> status: 200, response time: 12.778 ms" source=console
+time="2026-10-20T13:24:23+04:00" level=info msg="GET /posts/1/comments -> status: 200, response time: 13.6328 ms" source=console
+time="2026-10-20T13:24:23+04:00" level=info msg="GET /posts/1/comments -> status: 200, response time: 12.8681 ms" source=console
+
+running (0m13.0s), 10/10 VUs, 120 complete and 0 interrupted iterations
+default   [  43% ] 10 VUs  13.0s/30s
+time="2026-10-20T13:24:24+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 12.6995 ms" source=console
+time="2026-10-20T13:24:24+04:00" level=info msg="GET /posts/10/comments -> status: 200, response time: 12.6995 ms" source=console
+time="2026-10-20T13:24:24+04:00" level=info msg="GET /posts/2/comments -> status: 200, response time: 10.208 ms" source=console
+time="2026-10-20T13:24:24+04:00" level=info msg="GET /posts/4/comments -> status: 200, response time: 13.7498 ms" source=console
+time="2026-10-20T13:24:24+04:00" level=info msg="GET /posts/5/comments -> status: 200, response time: 10.208 ms" source=console
+time="2026-10-20T13:24:24+04:00" level=info msg="GET /posts/10/comments -> status: 200, response time: 13.7498 ms" source=console
+time="2026-10-20T13:24:24+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 13.2026 ms" source=console
+time="2026-10-20T13:24:24+04:00" level=info msg="GET /posts/7/comments -> status: 200, response time: 14.2631 ms" source=console
+time="2026-10-20T13:24:24+04:00" level=info msg="GET /posts/1/comments -> status: 200, response time: 15.6156 ms" source=console
+time="2026-10-20T13:24:24+04:00" level=info msg="GET /posts/7/comments -> status: 200, response time: 11.5605 ms" source=console
+
+running (0m14.0s), 10/10 VUs, 130 complete and 0 interrupted iterations
+default   [  47% ] 10 VUs  14.0s/30s
+time="2026-10-20T13:24:25+04:00" level=info msg="GET /posts/3/comments -> status: 200, response time: 11.0633 ms" source=console
+time="2026-10-20T13:24:25+04:00" level=info msg="GET /posts/2/comments -> status: 200, response time: 12.166 ms" source=console
+time="2026-10-20T13:24:25+04:00" level=info msg="GET /posts/8/comments -> status: 200, response time: 10.337 ms" source=console
+time="2026-10-20T13:24:25+04:00" level=info msg="GET /posts/10/comments -> status: 200, response time: 10.8501 ms" source=console
+time="2026-10-20T13:24:25+04:00" level=info msg="GET /posts/10/comments -> status: 200, response time: 12.0141 ms" source=console
+time="2026-10-20T13:24:25+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 12.8905 ms" source=console
+time="2026-10-20T13:24:25+04:00" level=info msg="GET /posts/10/comments -> status: 200, response time: 12.8905 ms" source=console
+time="2026-10-20T13:24:25+04:00" level=info msg="GET /posts/7/comments -> status: 200, response time: 12.8905 ms" source=console
+time="2026-10-20T13:24:25+04:00" level=info msg="GET /posts/8/comments -> status: 200, response time: 13.4014 ms" source=console
+time="2026-10-20T13:24:25+04:00" level=info msg="GET /posts/7/comments -> status: 200, response time: 13.4014 ms" source=console
+
+running (0m15.0s), 10/10 VUs, 140 complete and 0 interrupted iterations
+default   [  50% ] 10 VUs  15.0s/30s
+time="2026-10-20T13:24:26+04:00" level=info msg="GET /posts/1/comments -> status: 200, response time: 9.9908 ms" source=console
+time="2026-10-20T13:24:26+04:00" level=info msg="GET /posts/9/comments -> status: 200, response time: 10.0067 ms" source=console
+time="2026-10-20T13:24:26+04:00" level=info msg="GET /posts/3/comments -> status: 200, response time: 12.1957 ms" source=console
+time="2026-10-20T13:24:26+04:00" level=info msg="GET /posts/3/comments -> status: 200, response time: 9.1284 ms" source=console
+time="2026-10-20T13:24:26+04:00" level=info msg="GET /posts/5/comments -> status: 200, response time: 12.1957 ms" source=console
+time="2026-10-20T13:24:26+04:00" level=info msg="GET /posts/9/comments -> status: 200, response time: 9.1284 ms" source=console
+time="2026-10-20T13:24:26+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 9.1284 ms" source=console
+time="2026-10-20T13:24:26+04:00" level=info msg="GET /posts/8/comments -> status: 200, response time: 9.8402 ms" source=console
+time="2026-10-20T13:24:26+04:00" level=info msg="GET /posts/3/comments -> status: 200, response time: 11.4207 ms" source=console
+time="2026-10-20T13:24:26+04:00" level=info msg="GET /posts/2/comments -> status: 200, response time: 10.7514 ms" source=console
+
+running (0m16.0s), 10/10 VUs, 150 complete and 0 interrupted iterations
+default   [  53% ] 10 VUs  16.0s/30s
+time="2026-10-20T13:24:27+04:00" level=info msg="GET /posts/1/comments -> status: 200, response time: 12.0934 ms" source=console
+time="2026-10-20T13:24:27+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 12.9757 ms" source=console
+time="2026-10-20T13:24:27+04:00" level=info msg="GET /posts/2/comments -> status: 200, response time: 8.7071 ms" source=console
+time="2026-10-20T13:24:27+04:00" level=info msg="GET /posts/1/comments -> status: 200, response time: 10.623 ms" source=console
+time="2026-10-20T13:24:27+04:00" level=info msg="GET /posts/5/comments -> status: 200, response time: 10.623 ms" source=console
+time="2026-10-20T13:24:27+04:00" level=info msg="GET /posts/7/comments -> status: 200, response time: 11.84 ms" source=console
+time="2026-10-20T13:24:27+04:00" level=info msg="GET /posts/5/comments -> status: 200, response time: 10.8774 ms" source=console
+time="2026-10-20T13:24:27+04:00" level=info msg="GET /posts/3/comments -> status: 200, response time: 12.1177 ms" source=console
+time="2026-10-20T13:24:27+04:00" level=info msg="GET /posts/8/comments -> status: 200, response time: 12.7933 ms" source=console
+time="2026-10-20T13:24:27+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 12.7933 ms" source=console
+
+running (0m17.0s), 10/10 VUs, 160 complete and 0 interrupted iterations
+default   [  57% ] 10 VUs  17.0s/30s
+time="2026-10-20T13:24:28+04:00" level=info msg="GET /posts/4/comments -> status: 200, response time: 11.7648 ms" source=console
+time="2026-10-20T13:24:28+04:00" level=info msg="GET /posts/7/comments -> status: 200, response time: 10.6736 ms" source=console
+time="2026-10-20T13:24:28+04:00" level=info msg="GET /posts/7/comments -> status: 200, response time: 12.8911 ms" source=console
+time="2026-10-20T13:24:28+04:00" level=info msg="GET /posts/4/comments -> status: 200, response time: 10.392 ms" source=console
+time="2026-10-20T13:24:28+04:00" level=info msg="GET /posts/3/comments -> status: 200, response time: 10.392 ms" source=console
+time="2026-10-20T13:24:28+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 10.9011 ms" source=console
+time="2026-10-20T13:24:28+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 11.8706 ms" source=console
+time="2026-10-20T13:24:28+04:00" level=info msg="GET /posts/10/comments -> status: 200, response time: 11.5307 ms" source=console
+time="2026-10-20T13:24:28+04:00" level=info msg="GET /posts/1/comments -> status: 200, response time: 12.5002 ms" source=console
+time="2026-10-20T13:24:28+04:00" level=info msg="GET /posts/8/comments -> status: 200, response time: 13.1459 ms" source=console
+
+running (0m18.0s), 10/10 VUs, 170 complete and 0 interrupted iterations
+default   [  60% ] 10 VUs  18.0s/30s
+time="2026-10-20T13:24:29+04:00" level=info msg="GET /posts/8/comments -> status: 200, response time: 9.8693 ms" source=console
+time="2026-10-20T13:24:29+04:00" level=info msg="GET /posts/9/comments -> status: 200, response time: 9.534 ms" source=console
+time="2026-10-20T13:24:29+04:00" level=info msg="GET /posts/9/comments -> status: 200, response time: 10.725 ms" source=console
+time="2026-10-20T13:24:29+04:00" level=info msg="GET /posts/4/comments -> status: 200, response time: 10.2193 ms" source=console
+time="2026-10-20T13:24:29+04:00" level=info msg="GET /posts/5/comments -> status: 200, response time: 9.706 ms" source=console
+time="2026-10-20T13:24:29+04:00" level=info msg="GET /posts/5/comments -> status: 200, response time: 10.7078 ms" source=console
+time="2026-10-20T13:24:29+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 11.1649 ms" source=console
+time="2026-10-20T13:24:29+04:00" level=info msg="GET /posts/1/comments -> status: 200, response time: 10.4585 ms" source=console
+time="2026-10-20T13:24:29+04:00" level=info msg="GET /posts/10/comments -> status: 200, response time: 10.9688 ms" source=console
+time="2026-10-20T13:24:29+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 10.3359 ms" source=console
+
+running (0m19.0s), 10/10 VUs, 180 complete and 0 interrupted iterations
+default   [  63% ] 10 VUs  19.0s/30s
+time="2026-10-20T13:24:30+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 13.8419 ms" source=console
+time="2026-10-20T13:24:30+04:00" level=info msg="GET /posts/1/comments -> status: 200, response time: 13.8419 ms" source=console
+time="2026-10-20T13:24:30+04:00" level=info msg="GET /posts/1/comments -> status: 200, response time: 12.7389 ms" source=console
+time="2026-10-20T13:24:30+04:00" level=info msg="GET /posts/7/comments -> status: 200, response time: 14.1008 ms" source=console
+time="2026-10-20T13:24:30+04:00" level=info msg="GET /posts/5/comments -> status: 200, response time: 16.9005 ms" source=console
+time="2026-10-20T13:24:30+04:00" level=info msg="GET /posts/7/comments -> status: 200, response time: 14.6391 ms" source=console
+time="2026-10-20T13:24:30+04:00" level=info msg="GET /posts/2/comments -> status: 200, response time: 13.5392 ms" source=console
+time="2026-10-20T13:24:30+04:00" level=info msg="GET /posts/8/comments -> status: 200, response time: 12.4796 ms" source=console
+time="2026-10-20T13:24:30+04:00" level=info msg="GET /posts/7/comments -> status: 200, response time: 13.5392 ms" source=console
+time="2026-10-20T13:24:30+04:00" level=info msg="GET /posts/4/comments -> status: 200, response time: 15.3441 ms" source=console
+
+running (0m20.0s), 10/10 VUs, 190 complete and 0 interrupted iterations
+default   [  67% ] 10 VUs  20.0s/30s
+time="2026-10-20T13:24:31+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 11.4622 ms" source=console
+time="2026-10-20T13:24:31+04:00" level=info msg="GET /posts/3/comments -> status: 200, response time: 11.8742 ms" source=console
+time="2026-10-20T13:24:31+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 10.9419 ms" source=console
+time="2026-10-20T13:24:31+04:00" level=info msg="GET /posts/9/comments -> status: 200, response time: 10.8882 ms" source=console
+time="2026-10-20T13:24:31+04:00" level=info msg="GET /posts/1/comments -> status: 200, response time: 10.8882 ms" source=console
+time="2026-10-20T13:24:31+04:00" level=info msg="GET /posts/8/comments -> status: 200, response time: 15.4105 ms" source=console
+time="2026-10-20T13:24:31+04:00" level=info msg="GET /posts/10/comments -> status: 200, response time: 14.1749 ms" source=console
+time="2026-10-20T13:24:31+04:00" level=info msg="GET /posts/5/comments -> status: 200, response time: 14.1749 ms" source=console
+time="2026-10-20T13:24:31+04:00" level=info msg="GET /posts/7/comments -> status: 200, response time: 13.0395 ms" source=console
+time="2026-10-20T13:24:31+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 14.1749 ms" source=console
+
+running (0m21.0s), 10/10 VUs, 200 complete and 0 interrupted iterations
+default   [  70% ] 10 VUs  21.0s/30s
+time="2026-10-20T13:24:32+04:00" level=info msg="GET /posts/10/comments -> status: 200, response time: 9.5736 ms" source=console
+time="2026-10-20T13:24:32+04:00" level=info msg="GET /posts/1/comments -> status: 200, response time: 11.4733 ms" source=console
+time="2026-10-20T13:24:32+04:00" level=info msg="GET /posts/4/comments -> status: 200, response time: 10.8719 ms" source=console
+time="2026-10-20T13:24:32+04:00" level=info msg="GET /posts/2/comments -> status: 200, response time: 9.635 ms" source=console
+time="2026-10-20T13:24:32+04:00" level=info msg="GET /posts/4/comments -> status: 200, response time: 9.635 ms" source=console
+time="2026-10-20T13:24:32+04:00" level=info msg="GET /posts/5/comments -> status: 200, response time: 7.2364 ms" source=console
+time="2026-10-20T13:24:32+04:00" level=info msg="GET /posts/1/comments -> status: 200, response time: 7.4043 ms" source=console
+time="2026-10-20T13:24:32+04:00" level=info msg="GET /posts/4/comments -> status: 200, response time: 7.916 ms" source=console
+time="2026-10-20T13:24:32+04:00" level=info msg="GET /posts/10/comments -> status: 200, response time: 8.3156 ms" source=console
+time="2026-10-20T13:24:32+04:00" level=info msg="GET /posts/2/comments -> status: 200, response time: 10.1955 ms" source=console
+
+running (0m22.0s), 10/10 VUs, 210 complete and 0 interrupted iterations
+default   [  73% ] 10 VUs  22.0s/30s
+time="2026-10-20T13:24:33+04:00" level=info msg="GET /posts/8/comments -> status: 200, response time: 10.4708 ms" source=console
+time="2026-10-20T13:24:33+04:00" level=info msg="GET /posts/1/comments -> status: 200, response time: 7.7049 ms" source=console
+time="2026-10-20T13:24:33+04:00" level=info msg="GET /posts/1/comments -> status: 200, response time: 9.2317 ms" source=console
+time="2026-10-20T13:24:33+04:00" level=info msg="GET /posts/8/comments -> status: 200, response time: 8.2026 ms" source=console
+time="2026-10-20T13:24:33+04:00" level=info msg="GET /posts/5/comments -> status: 200, response time: 8.9003 ms" source=console
+time="2026-10-20T13:24:33+04:00" level=info msg="GET /posts/4/comments -> status: 200, response time: 10.1549 ms" source=console
+time="2026-10-20T13:24:33+04:00" level=info msg="GET /posts/3/comments -> status: 200, response time: 10.9103 ms" source=console
+time="2026-10-20T13:24:33+04:00" level=info msg="GET /posts/9/comments -> status: 200, response time: 10.0726 ms" source=console
+time="2026-10-20T13:24:33+04:00" level=info msg="GET /posts/1/comments -> status: 200, response time: 11.2245 ms" source=console
+time="2026-10-20T13:24:33+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 10.0986 ms" source=console
+
+running (0m23.0s), 10/10 VUs, 220 complete and 0 interrupted iterations
+default   [  77% ] 10 VUs  23.0s/30s
+time="2026-10-20T13:24:34+04:00" level=info msg="GET /posts/8/comments -> status: 200, response time: 11.3364 ms" source=console
+time="2026-10-20T13:24:34+04:00" level=info msg="GET /posts/3/comments -> status: 200, response time: 11.3364 ms" source=console
+time="2026-10-20T13:24:34+04:00" level=info msg="GET /posts/4/comments -> status: 200, response time: 12.8514 ms" source=console
+time="2026-10-20T13:24:34+04:00" level=info msg="GET /posts/1/comments -> status: 200, response time: 9.4773 ms" source=console
+time="2026-10-20T13:24:34+04:00" level=info msg="GET /posts/3/comments -> status: 200, response time: 9.4773 ms" source=console
+time="2026-10-20T13:24:34+04:00" level=info msg="GET /posts/1/comments -> status: 200, response time: 14.5285 ms" source=console
+time="2026-10-20T13:24:34+04:00" level=info msg="GET /posts/9/comments -> status: 200, response time: 14.6324 ms" source=console
+time="2026-10-20T13:24:34+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 11.0683 ms" source=console
+time="2026-10-20T13:24:34+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 9.9302 ms" source=console
+time="2026-10-20T13:24:34+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 11.0683 ms" source=console
+
+running (0m24.0s), 10/10 VUs, 230 complete and 0 interrupted iterations
+default   [  80% ] 10 VUs  24.0s/30s
+time="2026-10-20T13:24:35+04:00" level=info msg="GET /posts/9/comments -> status: 200, response time: 12.3852 ms" source=console
+time="2026-10-20T13:24:35+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 10.6626 ms" source=console
+time="2026-10-20T13:24:35+04:00" level=info msg="GET /posts/3/comments -> status: 200, response time: 12.3852 ms" source=console
+time="2026-10-20T13:24:35+04:00" level=info msg="GET /posts/8/comments -> status: 200, response time: 11.8006 ms" source=console
+time="2026-10-20T13:24:35+04:00" level=info msg="GET /posts/3/comments -> status: 200, response time: 11.1312 ms" source=console
+time="2026-10-20T13:24:35+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 8.7665 ms" source=console
+time="2026-10-20T13:24:35+04:00" level=info msg="GET /posts/2/comments -> status: 200, response time: 13.5232 ms" source=console
+time="2026-10-20T13:24:35+04:00" level=info msg="GET /posts/3/comments -> status: 200, response time: 11.8751 ms" source=console
+time="2026-10-20T13:24:35+04:00" level=info msg="GET /posts/10/comments -> status: 200, response time: 11.8751 ms" source=console
+time="2026-10-20T13:24:35+04:00" level=info msg="GET /posts/4/comments -> status: 200, response time: 11.8751 ms" source=console
+
+running (0m25.0s), 10/10 VUs, 240 complete and 0 interrupted iterations
+default   [  83% ] 10 VUs  25.0s/30s
+time="2026-10-20T13:24:36+04:00" level=info msg="GET /posts/10/comments -> status: 200, response time: 58.7591 ms" source=console
+time="2026-10-20T13:24:36+04:00" level=info msg="GET /posts/10/comments -> status: 200, response time: 58.7591 ms" source=console
+time="2026-10-20T13:24:36+04:00" level=info msg="GET /posts/10/comments -> status: 200, response time: 58.7591 ms" source=console
+time="2026-10-20T13:24:36+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 110.446 ms" source=console
+time="2026-10-20T13:24:36+04:00" level=info msg="GET /posts/5/comments -> status: 200, response time: 111.4204 ms" source=console
+time="2026-10-20T13:24:36+04:00" level=info msg="GET /posts/2/comments -> status: 200, response time: 107.658 ms" source=console
+time="2026-10-20T13:24:36+04:00" level=info msg="GET /posts/3/comments -> status: 200, response time: 111.4204 ms" source=console
+time="2026-10-20T13:24:36+04:00" level=info msg="GET /posts/2/comments -> status: 200, response time: 107.658 ms" source=console
+time="2026-10-20T13:24:36+04:00" level=info msg="GET /posts/8/comments -> status: 200, response time: 107.9741 ms" source=console
+time="2026-10-20T13:24:36+04:00" level=info msg="GET /posts/4/comments -> status: 200, response time: 111.4204 ms" source=console
+
+running (0m26.0s), 10/10 VUs, 250 complete and 0 interrupted iterations
+default   [  87% ] 10 VUs  26.0s/30s
+time="2026-10-20T13:24:37+04:00" level=info msg="GET /posts/3/comments -> status: 200, response time: 10.6725 ms" source=console
+time="2026-10-20T13:24:37+04:00" level=info msg="GET /posts/10/comments -> status: 200, response time: 11.7491 ms" source=console
+time="2026-10-20T13:24:37+04:00" level=info msg="GET /posts/9/comments -> status: 200, response time: 12.2604 ms" source=console
+time="2026-10-20T13:24:37+04:00" level=info msg="GET /posts/9/comments -> status: 200, response time: 16.1307 ms" source=console
+time="2026-10-20T13:24:37+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 16.6456 ms" source=console
+time="2026-10-20T13:24:37+04:00" level=info msg="GET /posts/4/comments -> status: 200, response time: 18.0369 ms" source=console
+time="2026-10-20T13:24:37+04:00" level=info msg="GET /posts/4/comments -> status: 200, response time: 17.0055 ms" source=console
+time="2026-10-20T13:24:37+04:00" level=info msg="GET /posts/5/comments -> status: 200, response time: 17.0055 ms" source=console
+time="2026-10-20T13:24:37+04:00" level=info msg="GET /posts/9/comments -> status: 200, response time: 17.5571 ms" source=console
+time="2026-10-20T13:24:37+04:00" level=info msg="GET /posts/7/comments -> status: 200, response time: 17 ms" source=console
+
+running (0m27.0s), 10/10 VUs, 260 complete and 0 interrupted iterations
+default   [  90% ] 10 VUs  27.0s/30s
+time="2026-10-20T13:24:38+04:00" level=info msg="GET /posts/9/comments -> status: 200, response time: 9.8064 ms" source=console
+time="2026-10-20T13:24:38+04:00" level=info msg="GET /posts/9/comments -> status: 200, response time: 9.8064 ms" source=console
+time="2026-10-20T13:24:38+04:00" level=info msg="GET /posts/5/comments -> status: 200, response time: 10.3203 ms" source=console
+time="2026-10-20T13:24:38+04:00" level=info msg="GET /posts/9/comments -> status: 200, response time: 9.5623 ms" source=console
+time="2026-10-20T13:24:38+04:00" level=info msg="GET /posts/5/comments -> status: 200, response time: 10.171 ms" source=console
+time="2026-10-20T13:24:38+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 10.4808 ms" source=console
+time="2026-10-20T13:24:38+04:00" level=info msg="GET /posts/3/comments -> status: 200, response time: 10.7607 ms" source=console
+time="2026-10-20T13:24:38+04:00" level=info msg="GET /posts/9/comments -> status: 200, response time: 12.184 ms" source=console
+time="2026-10-20T13:24:38+04:00" level=info msg="GET /posts/8/comments -> status: 200, response time: 11.6636 ms" source=console
+time="2026-10-20T13:24:38+04:00" level=info msg="GET /posts/10/comments -> status: 200, response time: 12.184 ms" source=console
+
+running (0m28.0s), 10/10 VUs, 270 complete and 0 interrupted iterations
+default   [  93% ] 10 VUs  28.0s/30s
+time="2026-10-20T13:24:39+04:00" level=info msg="GET /posts/7/comments -> status: 200, response time: 13.4335 ms" source=console
+time="2026-10-20T13:24:39+04:00" level=info msg="GET /posts/8/comments -> status: 200, response time: 13.4653 ms" source=console
+time="2026-10-20T13:24:39+04:00" level=info msg="GET /posts/8/comments -> status: 200, response time: 13.9486 ms" source=console
+time="2026-10-20T13:24:39+04:00" level=info msg="GET /posts/5/comments -> status: 200, response time: 11.026 ms" source=console
+time="2026-10-20T13:24:39+04:00" level=info msg="GET /posts/7/comments -> status: 200, response time: 12.6404 ms" source=console
+time="2026-10-20T13:24:39+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 12.6404 ms" source=console
+time="2026-10-20T13:24:39+04:00" level=info msg="GET /posts/2/comments -> status: 200, response time: 13.3599 ms" source=console
+time="2026-10-20T13:24:39+04:00" level=info msg="GET /posts/2/comments -> status: 200, response time: 12.1562 ms" source=console
+time="2026-10-20T13:24:39+04:00" level=info msg="GET /posts/4/comments -> status: 200, response time: 13.2141 ms" source=console
+time="2026-10-20T13:24:39+04:00" level=info msg="GET /posts/2/comments -> status: 200, response time: 13.2141 ms" source=console
+
+running (0m29.0s), 10/10 VUs, 280 complete and 0 interrupted iterations
+default   [  97% ] 10 VUs  29.0s/30s
+time="2026-10-20T13:24:40+04:00" level=info msg="GET /posts/2/comments -> status: 200, response time: 13.9133 ms" source=console
+time="2026-10-20T13:24:40+04:00" level=info msg="GET /posts/2/comments -> status: 200, response time: 13.2931 ms" source=console
+time="2026-10-20T13:24:40+04:00" level=info msg="GET /posts/5/comments -> status: 200, response time: 12.7429 ms" source=console
+time="2026-10-20T13:24:40+04:00" level=info msg="GET /posts/5/comments -> status: 200, response time: 10.7268 ms" source=console
+time="2026-10-20T13:24:40+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 10.6051 ms" source=console
+time="2026-10-20T13:24:40+04:00" level=info msg="GET /posts/3/comments -> status: 200, response time: 11.156 ms" source=console
+time="2026-10-20T13:24:40+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 10.2205 ms" source=console
+time="2026-10-20T13:24:40+04:00" level=info msg="GET /posts/5/comments -> status: 200, response time: 10.7369 ms" source=console
+time="2026-10-20T13:24:40+04:00" level=info msg="GET /posts/6/comments -> status: 200, response time: 9.6187 ms" source=console
+time="2026-10-20T13:24:40+04:00" level=info msg="GET /posts/5/comments -> status: 200, response time: 11.0217 ms" source=console
+
+running (0m30.0s), 10/10 VUs, 290 complete and 0 interrupted iterations
+default   [ 100% ] 10 VUs  30.0s/30s
+
+
+  █ THRESHOLDS 
+
+    http_req_duration
+    ✓ 'p(95)<400' p(95)=36.24ms
+    ✓ 'p(99)<800' p(99)=110.45ms
+
+    http_req_failed
+    ✓ 'rate<0.01' rate=0.00%
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 300     9.809416/s
+    checks_succeeded...: 100.00% 300 out of 300
+    checks_failed......: 0.00%   0 out of 300
+
+    ✓ status is 200
+
+    HTTP
+    http_req_duration..............: avg=15.23ms min=7.23ms med=11.62ms max=111.42ms p(90)=16.3ms p(95)=36.24ms
+      { expected_response:true }...: avg=15.23ms min=7.23ms med=11.62ms max=111.42ms p(90)=16.3ms p(95)=36.24ms
+    http_req_failed................: 0.00%  0 out of 300
+    http_reqs......................: 300    9.809416/s
+
+    EXECUTION
+    iteration_duration.............: avg=1.01s   min=1s     med=1.01s   max=1.11s    p(90)=1.01s  p(95)=1.1s   
+    iterations.....................: 300    9.809416/s
+    vus............................: 10     min=10       max=10
+    vus_max........................: 10     min=10       max=10
+
+    NETWORK
+    data_received..................: 635 kB 21 kB/s
+    data_sent......................: 33 kB  1.1 kB/s
+
+
+
+
+running (0m30.6s), 00/10 VUs, 300 complete and 0 interrupted iterations
+default ✓ [ 100% ] 10 VUs  30s
