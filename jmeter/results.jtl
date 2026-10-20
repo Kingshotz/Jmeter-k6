@@ -1,0 +1,141 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1792487387701,1419,01 Home page,200,OK,Gift Card Buyers 1-1,text,true,,35604,229,2,2,https://demowebshop.tricentis.com/,1346,0,747
+1792487388885,935,01 Home page,200,OK,Gift Card Buyers 1-2,text,true,,35604,229,3,3,https://demowebshop.tricentis.com/,858,0,171
+1792487390419,415,02 Open $25 Virtual Gift Card,200,OK,Gift Card Buyers 1-1,text,true,,34532,472,3,3,https://demowebshop.tricentis.com/25-virtual-gift-card,410,0,0
+1792487391191,394,02 Open $25 Virtual Gift Card,200,OK,Gift Card Buyers 1-2,text,true,,34532,472,3,3,https://demowebshop.tricentis.com/25-virtual-gift-card,389,0,0
+1792487391455,867,01 Home page,200,OK,Gift Card Buyers 1-3,text,true,,35604,229,4,4,https://demowebshop.tricentis.com/,786,0,161
+1792487392227,262,03 Add gift card to cart,200,OK,Gift Card Buyers 1-1,text,true,,2843,919,4,4,https://demowebshop.tricentis.com/addproducttocart/details/2/1,262,0,0
+1792487393306,290,03 Add gift card to cart,200,OK,Gift Card Buyers 1-2,text,true,,2843,919,4,4,https://demowebshop.tricentis.com/addproducttocart/details/2/1,290,0,0
+1792487393138,1148,01 Home page,200,OK,Gift Card Buyers 1-4,text,true,,35604,229,5,5,https://demowebshop.tricentis.com/,1075,0,174
+1792487394006,323,04 Open shopping cart,200,OK,Gift Card Buyers 1-1,text,true,,26461,519,5,5,https://demowebshop.tricentis.com/cart,321,0,0
+1792487394006,378,02 Open $25 Virtual Gift Card,200,OK,Gift Card Buyers 1-3,text,true,,34532,472,5,5,https://demowebshop.tricentis.com/25-virtual-gift-card,376,0,0
+1792487395396,475,04 Open shopping cart,200,OK,Gift Card Buyers 1-2,text,true,,26461,519,5,5,https://demowebshop.tricentis.com/cart,471,0,0
+1792487395350,533,02 Open $25 Virtual Gift Card,200,OK,Gift Card Buyers 1-4,text,true,,34532,472,5,5,https://demowebshop.tricentis.com/25-virtual-gift-card,521,0,0
+1792487395475,411,03 Add gift card to cart,200,OK,Gift Card Buyers 1-3,text,true,,2843,919,5,5,https://demowebshop.tricentis.com/addproducttocart/details/2/1,411,0,0
+1792487395121,1005,01 Home page,200,OK,Gift Card Buyers 1-5,text,true,,35604,229,5,5,https://demowebshop.tricentis.com/,930,0,168
+1792487396244,544,05 Agree to terms and checkout,200,OK,Gift Card Buyers 1-1,text,true,,25338,1193,5,5,https://demowebshop.tricentis.com/login/checkoutasguest?returnUrl=%2Fcart,220,0,0
+1792487397079,319,04 Open shopping cart,200,OK,Gift Card Buyers 1-3,text,true,,26461,519,5,5,https://demowebshop.tricentis.com/cart,317,0,0
+1792487397187,397,02 Open $25 Virtual Gift Card,200,OK,Gift Card Buyers 1-5,text,true,,34532,472,5,5,https://demowebshop.tricentis.com/25-virtual-gift-card,395,0,0
+1792487397714,269,03 Add gift card to cart,200,OK,Gift Card Buyers 1-4,text,true,,2843,919,5,5,https://demowebshop.tricentis.com/addproducttocart/details/2/1,269,0,0
+1792487397822,487,05 Agree to terms and checkout,200,OK,Gift Card Buyers 1-2,text,true,,25338,1193,5,5,https://demowebshop.tricentis.com/login/checkoutasguest?returnUrl=%2Fcart,167,0,0
+1792487397898,731,06 Checkout as guest,200,OK,Gift Card Buyers 1-1,text,true,,41318,1053,5,5,https://demowebshop.tricentis.com/onepagecheckout,193,0,0
+1792487385612,3694,Gift Card Checkout Journey,200,"Number of samples in transaction : 6, number of failing samples : 0",Gift Card Buyers 1-1,,true,,166096,4385,5,5,null,2752,9324,747
+1792487399067,292,03 Add gift card to cart,200,OK,Gift Card Buyers 1-5,text,true,,2843,919,5,5,https://demowebshop.tricentis.com/addproducttocart/details/2/1,292,0,0
+1792487399006,525,05 Agree to terms and checkout,200,OK,Gift Card Buyers 1-3,text,true,,25338,1193,5,5,https://demowebshop.tricentis.com/login/checkoutasguest?returnUrl=%2Fcart,150,0,0
+1792487399534,317,04 Open shopping cart,200,OK,Gift Card Buyers 1-4,text,true,,26461,519,5,5,https://demowebshop.tricentis.com/cart,316,0,0
+1792487399658,627,01 Home page,200,OK,Gift Card Buyers 1-1,text,true,,35604,229,5,5,https://demowebshop.tricentis.com/,625,0,0
+1792487400183,715,06 Checkout as guest,200,OK,Gift Card Buyers 1-2,text,true,,41318,1053,5,5,https://demowebshop.tricentis.com/onepagecheckout,194,0,0
+1792487387610,3296,Gift Card Checkout Journey,200,"Number of samples in transaction : 6, number of failing samples : 0",Gift Card Buyers 1-2,,true,,166096,4385,5,5,null,2369,9994,171
+1792487400878,362,04 Open shopping cart,200,OK,Gift Card Buyers 1-5,text,true,,26461,519,5,5,https://demowebshop.tricentis.com/cart,360,0,0
+1792487400601,740,06 Checkout as guest,200,OK,Gift Card Buyers 1-3,text,true,,41318,1053,5,5,https://demowebshop.tricentis.com/onepagecheckout,199,0,0
+1792487389615,3240,Gift Card Checkout Journey,200,"Number of samples in transaction : 6, number of failing samples : 0",Gift Card Buyers 1-3,,true,,166096,4385,5,5,null,2239,8487,161
+1792487401771,533,05 Agree to terms and checkout,200,OK,Gift Card Buyers 1-4,text,true,,25338,1193,5,5,https://demowebshop.tricentis.com/login/checkoutasguest?returnUrl=%2Fcart,170,0,0
+1792487402047,413,02 Open $25 Virtual Gift Card,200,OK,Gift Card Buyers 1-1,text,true,,34532,472,5,5,https://demowebshop.tricentis.com/25-virtual-gift-card,411,0,0
+1792487402449,377,01 Home page,200,OK,Gift Card Buyers 1-2,text,true,,35604,229,5,5,https://demowebshop.tricentis.com/,375,0,0
+1792487402757,474,05 Agree to terms and checkout,200,OK,Gift Card Buyers 1-5,text,true,,25338,1193,5,5,https://demowebshop.tricentis.com/login/checkoutasguest?returnUrl=%2Fcart,152,0,0
+1792487403205,385,01 Home page,200,OK,Gift Card Buyers 1-3,text,true,,35604,229,5,5,https://demowebshop.tricentis.com/,383,0,0
+1792487403624,252,03 Add gift card to cart,200,OK,Gift Card Buyers 1-1,text,true,,2843,919,5,5,https://demowebshop.tricentis.com/addproducttocart/details/2/1,252,0,0
+1792487404084,784,06 Checkout as guest,200,OK,Gift Card Buyers 1-4,text,true,,41318,1053,5,5,https://demowebshop.tricentis.com/onepagecheckout,196,0,0
+1792487391608,3584,Gift Card Checkout Journey,200,"Number of samples in transaction : 6, number of failing samples : 0",Gift Card Buyers 1-4,,true,,166096,4385,5,5,null,2547,9677,174
+1792487404470,399,02 Open $25 Virtual Gift Card,200,OK,Gift Card Buyers 1-2,text,true,,34532,472,5,5,https://demowebshop.tricentis.com/25-virtual-gift-card,397,0,0
+1792487404961,407,02 Open $25 Virtual Gift Card,200,OK,Gift Card Buyers 1-3,text,true,,34532,472,5,5,https://demowebshop.tricentis.com/25-virtual-gift-card,406,0,0
+1792487405037,706,06 Checkout as guest,200,OK,Gift Card Buyers 1-5,text,true,,41318,1053,5,5,https://demowebshop.tricentis.com/onepagecheckout,181,0,0
+1792487393615,3236,Gift Card Checkout Journey,200,"Number of samples in transaction : 6, number of failing samples : 0",Gift Card Buyers 1-5,,true,,166096,4385,5,5,null,2310,8893,168
+1792487405628,306,04 Open shopping cart,200,OK,Gift Card Buyers 1-1,text,true,,26461,519,5,5,https://demowebshop.tricentis.com/cart,305,0,0
+1792487406074,313,03 Add gift card to cart,200,OK,Gift Card Buyers 1-2,text,true,,2843,919,5,5,https://demowebshop.tricentis.com/addproducttocart/details/2/1,312,0,0
+1792487406013,385,01 Home page,200,OK,Gift Card Buyers 1-4,text,true,,35604,229,5,5,https://demowebshop.tricentis.com/,375,0,0
+1792487406521,249,03 Add gift card to cart,200,OK,Gift Card Buyers 1-3,text,true,,2843,919,5,5,https://demowebshop.tricentis.com/addproducttocart/details/2/1,249,0,0
+1792487407184,516,05 Agree to terms and checkout,200,OK,Gift Card Buyers 1-1,text,true,,25338,1193,5,5,https://demowebshop.tricentis.com/login/checkoutasguest?returnUrl=%2Fcart,152,0,0
+1792487407617,451,01 Home page,200,OK,Gift Card Buyers 1-5,text,true,,35604,229,5,5,https://demowebshop.tricentis.com/,450,0,0
+1792487407722,383,02 Open $25 Virtual Gift Card,200,OK,Gift Card Buyers 1-4,text,true,,34532,472,5,5,https://demowebshop.tricentis.com/25-virtual-gift-card,381,0,0
+1792487407908,335,04 Open shopping cart,200,OK,Gift Card Buyers 1-3,text,true,,26461,519,5,5,https://demowebshop.tricentis.com/cart,334,0,0
+1792487408249,319,04 Open shopping cart,200,OK,Gift Card Buyers 1-2,text,true,,26461,519,5,5,https://demowebshop.tricentis.com/cart,318,0,0
+1792487409235,263,03 Add gift card to cart,200,OK,Gift Card Buyers 1-4,text,true,,2843,919,5,5,https://demowebshop.tricentis.com/addproducttocart/details/2/1,263,0,0
+1792487409763,417,02 Open $25 Virtual Gift Card,200,OK,Gift Card Buyers 1-5,text,true,,34532,472,5,5,https://demowebshop.tricentis.com/25-virtual-gift-card,415,0,0
+1792487409468,719,06 Checkout as guest,200,OK,Gift Card Buyers 1-1,text,true,,41318,1053,5,5,https://demowebshop.tricentis.com/onepagecheckout,169,0,0
+1792487398631,2833,Gift Card Checkout Journey,200,"Number of samples in transaction : 6, number of failing samples : 0",Gift Card Buyers 1-1,,true,,166096,4385,5,5,null,1914,8722,0
+1792487409716,541,05 Agree to terms and checkout,200,OK,Gift Card Buyers 1-3,text,true,,25338,1193,5,5,https://demowebshop.tricentis.com/login/checkoutasguest?returnUrl=%2Fcart,166,0,0
+1792487410182,508,05 Agree to terms and checkout,200,OK,Gift Card Buyers 1-2,text,true,,25338,1193,5,5,https://demowebshop.tricentis.com/login/checkoutasguest?returnUrl=%2Fcart,159,0,0
+1792487411268,301,04 Open shopping cart,200,OK,Gift Card Buyers 1-4,text,true,,26461,519,5,5,https://demowebshop.tricentis.com/cart,300,0,0
+1792487411792,388,01 Home page,200,OK,Gift Card Buyers 1-1,text,true,,35604,229,5,5,https://demowebshop.tricentis.com/,386,0,0
+1792487411560,711,06 Checkout as guest,200,OK,Gift Card Buyers 1-3,text,true,,41318,1053,5,5,https://demowebshop.tricentis.com/onepagecheckout,201,0,0
+1792487401343,2628,Gift Card Checkout Journey,200,"Number of samples in transaction : 6, number of failing samples : 0",Gift Card Buyers 1-3,,true,,166096,4385,5,5,null,1739,8301,0
+1792487412052,287,03 Add gift card to cart,200,OK,Gift Card Buyers 1-5,text,true,,2843,919,5,5,https://demowebshop.tricentis.com/addproducttocart/details/2/1,287,0,0
+1792487412331,746,06 Checkout as guest,200,OK,Gift Card Buyers 1-2,text,true,,41318,1053,5,5,https://demowebshop.tricentis.com/onepagecheckout,210,0,0
+1792487400901,2662,Gift Card Checkout Journey,200,"Number of samples in transaction : 6, number of failing samples : 0",Gift Card Buyers 1-2,,true,,166096,4385,5,5,null,1771,9515,0
+1792487413290,410,02 Open $25 Virtual Gift Card,200,OK,Gift Card Buyers 1-1,text,true,,34532,472,5,5,https://demowebshop.tricentis.com/25-virtual-gift-card,407,0,0
+1792487413397,493,05 Agree to terms and checkout,200,OK,Gift Card Buyers 1-4,text,true,,25338,1193,5,5,https://demowebshop.tricentis.com/login/checkoutasguest?returnUrl=%2Fcart,151,0,0
+1792487413905,420,01 Home page,200,OK,Gift Card Buyers 1-3,text,true,,35604,229,5,5,https://demowebshop.tricentis.com/,418,0,0
+1792487414136,325,04 Open shopping cart,200,OK,Gift Card Buyers 1-5,text,true,,26461,519,5,5,https://demowebshop.tricentis.com/cart,324,0,0
+1792487414734,396,01 Home page,200,OK,Gift Card Buyers 1-2,text,true,,35604,229,5,5,https://demowebshop.tricentis.com/,395,0,0
+1792487415564,252,03 Add gift card to cart,200,OK,Gift Card Buyers 1-1,text,true,,2843,919,5,5,https://demowebshop.tricentis.com/addproducttocart/details/2/1,252,0,0
+1792487415690,407,02 Open $25 Virtual Gift Card,200,OK,Gift Card Buyers 1-3,text,true,,34532,472,5,5,https://demowebshop.tricentis.com/25-virtual-gift-card,404,0,0
+1792487415859,476,05 Agree to terms and checkout,200,OK,Gift Card Buyers 1-5,text,true,,25338,1193,5,5,https://demowebshop.tricentis.com/login/checkoutasguest?returnUrl=%2Fcart,167,0,0
+1792487415564,968,06 Checkout as guest,200,OK,Gift Card Buyers 1-4,text,true,,41318,1053,5,5,https://demowebshop.tricentis.com/onepagecheckout,473,0,0
+1792487404870,2793,Gift Card Checkout Journey,200,"Number of samples in transaction : 6, number of failing samples : 0",Gift Card Buyers 1-4,,true,,166096,4385,5,5,null,1943,8870,0
+1792487417208,248,03 Add gift card to cart,200,OK,Gift Card Buyers 1-3,text,true,,2843,919,5,5,https://demowebshop.tricentis.com/addproducttocart/details/2/1,248,0,0
+1792487417100,386,02 Open $25 Virtual Gift Card,200,OK,Gift Card Buyers 1-2,text,true,,34532,472,5,5,https://demowebshop.tricentis.com/25-virtual-gift-card,385,0,0
+1792487417578,392,04 Open shopping cart,200,OK,Gift Card Buyers 1-1,text,true,,26461,519,5,5,https://demowebshop.tricentis.com/cart,392,0,0
+1792487417656,417,01 Home page,200,OK,Gift Card Buyers 1-4,text,true,,35604,229,5,5,https://demowebshop.tricentis.com/,415,0,0
+1792487418056,677,06 Checkout as guest,200,OK,Gift Card Buyers 1-5,text,true,,41318,1053,5,5,https://demowebshop.tricentis.com/onepagecheckout,184,0,0
+1792487405744,2633,Gift Card Checkout Journey,200,"Number of samples in transaction : 6, number of failing samples : 0",Gift Card Buyers 1-5,,true,,166096,4385,5,5,null,1827,10357,0
+1792487418905,312,04 Open shopping cart,200,OK,Gift Card Buyers 1-3,text,true,,26461,519,5,5,https://demowebshop.tricentis.com/cart,310,0,0
+1792487419215,264,03 Add gift card to cart,200,OK,Gift Card Buyers 1-2,text,true,,2843,919,5,5,https://demowebshop.tricentis.com/addproducttocart/details/2/1,264,0,0
+1792487419398,521,05 Agree to terms and checkout,200,OK,Gift Card Buyers 1-1,text,true,,25338,1193,5,5,https://demowebshop.tricentis.com/login/checkoutasguest?returnUrl=%2Fcart,156,0,0
+1792487420001,371,02 Open $25 Virtual Gift Card,200,OK,Gift Card Buyers 1-4,text,true,,34532,472,5,5,https://demowebshop.tricentis.com/25-virtual-gift-card,369,0,0
+1792487420048,396,01 Home page,200,OK,Gift Card Buyers 1-5,text,true,,35604,229,5,5,https://demowebshop.tricentis.com/,394,0,0
+1792487420390,552,05 Agree to terms and checkout,200,OK,Gift Card Buyers 1-3,text,true,,25338,1193,5,5,https://demowebshop.tricentis.com/login/checkoutasguest?returnUrl=%2Fcart,173,0,0
+1792487420964,308,04 Open shopping cart,200,OK,Gift Card Buyers 1-2,text,true,,26461,519,5,5,https://demowebshop.tricentis.com/cart,307,0,0
+1792487420979,718,06 Checkout as guest,200,OK,Gift Card Buyers 1-1,text,true,,41318,1053,5,5,https://demowebshop.tricentis.com/onepagecheckout,169,0,0
+1792487410187,2681,Gift Card Checkout Journey,200,"Number of samples in transaction : 6, number of failing samples : 0",Gift Card Buyers 1-1,,true,,166096,4385,5,5,null,1762,8830,0
+1792487421446,260,03 Add gift card to cart,200,OK,Gift Card Buyers 1-4,text,true,,2843,919,5,5,https://demowebshop.tricentis.com/addproducttocart/details/2/1,260,0,0
+1792487422150,397,02 Open $25 Virtual Gift Card,200,OK,Gift Card Buyers 1-5,text,true,,34532,472,5,5,https://demowebshop.tricentis.com/25-virtual-gift-card,395,0,0
+1792487422554,472,05 Agree to terms and checkout,200,OK,Gift Card Buyers 1-2,text,true,,25338,1193,5,5,https://demowebshop.tricentis.com/login/checkoutasguest?returnUrl=%2Fcart,156,0,0
+1792487422754,307,04 Open shopping cart,200,OK,Gift Card Buyers 1-4,text,true,,26461,519,5,5,https://demowebshop.tricentis.com/cart,306,0,0
+1792487422801,700,06 Checkout as guest,200,OK,Gift Card Buyers 1-3,text,true,,41318,1053,5,5,https://demowebshop.tricentis.com/onepagecheckout,171,0,0
+1792487412272,2639,Gift Card Checkout Journey,200,"Number of samples in transaction : 6, number of failing samples : 0",Gift Card Buyers 1-3,,true,,166096,4385,5,5,null,1724,8591,0
+1792487423605,399,01 Home page,200,OK,Gift Card Buyers 1-1,text,true,,35604,229,5,5,https://demowebshop.tricentis.com/,398,0,0
+1792487424073,291,03 Add gift card to cart,200,OK,Gift Card Buyers 1-5,text,true,,2843,919,5,5,https://demowebshop.tricentis.com/addproducttocart/details/2/1,291,0,0
+1792487424356,474,05 Agree to terms and checkout,200,OK,Gift Card Buyers 1-4,text,true,,25338,1193,5,5,https://demowebshop.tricentis.com/login/checkoutasguest?returnUrl=%2Fcart,153,0,0
+1792487425140,376,01 Home page,200,OK,Gift Card Buyers 1-3,text,true,,35604,229,5,5,https://demowebshop.tricentis.com/,375,0,0
+1792487424971,684,06 Checkout as guest,200,OK,Gift Card Buyers 1-2,text,true,,41318,1053,5,5,https://demowebshop.tricentis.com/onepagecheckout,164,0,0
+1792487413078,2510,Gift Card Checkout Journey,200,"Number of samples in transaction : 6, number of failing samples : 0",Gift Card Buyers 1-2,,true,,166096,4385,5,5,null,1671,10068,0
+1792487425402,317,04 Open shopping cart,200,OK,Gift Card Buyers 1-5,text,true,,26461,519,5,5,https://demowebshop.tricentis.com/cart,316,0,0
+1792487425633,422,02 Open $25 Virtual Gift Card,200,OK,Gift Card Buyers 1-1,text,true,,34532,472,5,5,https://demowebshop.tricentis.com/25-virtual-gift-card,420,0,0
+1792487426547,378,02 Open $25 Virtual Gift Card,200,OK,Gift Card Buyers 1-3,text,true,,34532,472,5,5,https://demowebshop.tricentis.com/25-virtual-gift-card,375,0,0
+1792487426732,380,01 Home page,200,OK,Gift Card Buyers 1-2,text,true,,35604,229,5,5,https://demowebshop.tricentis.com/,379,0,0
+1792487426452,664,06 Checkout as guest,200,OK,Gift Card Buyers 1-4,text,true,,41318,1053,5,5,https://demowebshop.tricentis.com/onepagecheckout,167,0,0
+1792487416534,2493,Gift Card Checkout Journey,200,"Number of samples in transaction : 6, number of failing samples : 0",Gift Card Buyers 1-4,,true,,166096,4385,5,5,null,1670,8091,0
+1792487427301,246,03 Add gift card to cart,200,OK,Gift Card Buyers 1-1,text,true,,2843,919,5,5,https://demowebshop.tricentis.com/addproducttocart/details/2/1,246,0,0
+1792487427163,438,05 Agree to terms and checkout,200,OK,Gift Card Buyers 1-5,text,true,,25338,1193,5,5,https://demowebshop.tricentis.com/login/checkoutasguest?returnUrl=%2Fcart,142,0,0
+1792487428620,393,02 Open $25 Virtual Gift Card,200,OK,Gift Card Buyers 1-2,text,true,,34532,472,5,5,https://demowebshop.tricentis.com/25-virtual-gift-card,391,0,0
+1792487428743,395,01 Home page,200,OK,Gift Card Buyers 1-4,text,true,,35604,229,5,5,https://demowebshop.tricentis.com/,394,0,0
+1792487428912,282,03 Add gift card to cart,200,OK,Gift Card Buyers 1-3,text,true,,2843,919,5,5,https://demowebshop.tricentis.com/addproducttocart/details/2/1,282,0,0
+1792487428819,690,06 Checkout as guest,200,OK,Gift Card Buyers 1-5,text,true,,41318,1053,5,5,https://demowebshop.tricentis.com/onepagecheckout,182,0,0
+1792487418734,2529,Gift Card Checkout Journey,200,"Number of samples in transaction : 6, number of failing samples : 0",Gift Card Buyers 1-5,,true,,166096,4385,5,5,null,1720,8248,0
+1792487429343,330,04 Open shopping cart,200,OK,Gift Card Buyers 1-1,text,true,,26461,519,5,5,https://demowebshop.tricentis.com/cart,329,0,0
+1792487430537,381,02 Open $25 Virtual Gift Card,200,OK,Gift Card Buyers 1-4,text,true,,34532,472,5,5,https://demowebshop.tricentis.com/25-virtual-gift-card,380,0,0
+1792487430756,324,04 Open shopping cart,200,OK,Gift Card Buyers 1-3,text,true,,26461,519,5,5,https://demowebshop.tricentis.com/cart,323,0,0
+1792487430911,404,03 Add gift card to cart,200,OK,Gift Card Buyers 1-2,text,true,,2843,919,5,5,https://demowebshop.tricentis.com/addproducttocart/details/2/1,404,0,0
+1792487431281,514,05 Agree to terms and checkout,200,OK,Gift Card Buyers 1-1,text,true,,25338,1193,5,5,https://demowebshop.tricentis.com/login/checkoutasguest?returnUrl=%2Fcart,148,0,0
+1792487431466,364,01 Home page,200,OK,Gift Card Buyers 1-5,text,true,,35604,229,5,5,https://demowebshop.tricentis.com/,362,0,0
+1792487432171,244,03 Add gift card to cart,200,OK,Gift Card Buyers 1-4,text,true,,2843,919,5,5,https://demowebshop.tricentis.com/addproducttocart/details/2/1,244,0,0
+1792487432202,514,05 Agree to terms and checkout,200,OK,Gift Card Buyers 1-3,text,true,,25338,1193,5,5,https://demowebshop.tricentis.com/login/checkoutasguest?returnUrl=%2Fcart,160,0,0
+1792487432940,388,02 Open $25 Virtual Gift Card,200,OK,Gift Card Buyers 1-5,text,true,,34532,472,5,5,https://demowebshop.tricentis.com/25-virtual-gift-card,382,0,0
+1792487433200,325,04 Open shopping cart,200,OK,Gift Card Buyers 1-2,text,true,,26461,519,5,5,https://demowebshop.tricentis.com/cart,324,0,0
+1792487433384,709,06 Checkout as guest,200,OK,Gift Card Buyers 1-1,text,true,,41318,1053,5,5,https://demowebshop.tricentis.com/onepagecheckout,197,0,0
+1792487421698,2620,Gift Card Checkout Journey,200,"Number of samples in transaction : 6, number of failing samples : 0",Gift Card Buyers 1-1,,true,,166096,4385,5,5,null,1738,9775,0
+1792487434346,334,04 Open shopping cart,200,OK,Gift Card Buyers 1-4,text,true,,26461,519,4,4,https://demowebshop.tricentis.com/cart,333,0,0
+1792487434253,685,06 Checkout as guest,200,OK,Gift Card Buyers 1-3,text,true,,41318,1053,4,4,https://demowebshop.tricentis.com/onepagecheckout,181,0,0
+1792487423503,2559,Gift Card Checkout Journey,200,"Number of samples in transaction : 6, number of failing samples : 0",Gift Card Buyers 1-3,,true,,166096,4385,4,4,null,1696,8877,0
+1792487435209,279,03 Add gift card to cart,200,OK,Gift Card Buyers 1-5,text,true,,2843,919,3,3,https://demowebshop.tricentis.com/addproducttocart/details/2/1,279,0,0
+1792487435116,476,05 Agree to terms and checkout,200,OK,Gift Card Buyers 1-2,text,true,,25338,1193,3,3,https://demowebshop.tricentis.com/login/checkoutasguest?returnUrl=%2Fcart,153,0,0
+1792487435731,451,05 Agree to terms and checkout,200,OK,Gift Card Buyers 1-4,text,true,,25338,1193,3,3,https://demowebshop.tricentis.com/login/checkoutasguest?returnUrl=%2Fcart,146,0,0
+1792487437045,332,04 Open shopping cart,200,OK,Gift Card Buyers 1-5,text,true,,26461,519,3,3,https://demowebshop.tricentis.com/cart,332,0,0
+1792487437371,717,06 Checkout as guest,200,OK,Gift Card Buyers 1-2,text,true,,41318,1053,3,3,https://demowebshop.tricentis.com/onepagecheckout,177,0,0
+1792487425657,2695,Gift Card Checkout Journey,200,"Number of samples in transaction : 6, number of failing samples : 0",Gift Card Buyers 1-2,,true,,166096,4385,3,3,null,1828,9737,0
+1792487437680,699,06 Checkout as guest,200,OK,Gift Card Buyers 1-4,text,true,,41318,1053,2,2,https://demowebshop.tricentis.com/onepagecheckout,180,0,0
+1792487427117,2504,Gift Card Checkout Journey,200,"Number of samples in transaction : 6, number of failing samples : 0",Gift Card Buyers 1-4,,true,,166096,4385,2,2,null,1677,8758,0
+1792487439278,496,05 Agree to terms and checkout,200,OK,Gift Card Buyers 1-5,text,true,,25338,1193,1,1,https://demowebshop.tricentis.com/login/checkoutasguest?returnUrl=%2Fcart,151,0,0
+1792487441012,701,06 Checkout as guest,200,OK,Gift Card Buyers 1-5,text,true,,41318,1053,1,1,https://demowebshop.tricentis.com/onepagecheckout,192,0,0
+1792487429510,2560,Gift Card Checkout Journey,200,"Number of samples in transaction : 6, number of failing samples : 0",Gift Card Buyers 1-5,,true,,166096,4385,1,1,null,1698,9644,0

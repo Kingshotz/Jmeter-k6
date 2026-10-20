@@ -1,0 +1,242 @@
+2026-10-20 13:09:45,131 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-10-20 13:09:45,145 INFO o.a.j.JMeter: Loading user properties from: C:\Program Files\apache-jmeter-5.6.3\bin\user.properties
+2026-10-20 13:09:45,147 INFO o.a.j.JMeter: Loading system properties from: C:\Program Files\apache-jmeter-5.6.3\bin\system.properties
+2026-10-20 13:09:45,147 INFO o.a.j.JMeter: Setting JMeter property: jmeter.save.saveservice.subresults=false
+2026-10-20 13:09:45,152 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-10-20 13:09:45,152 INFO o.a.j.JMeter: Version 5.6.3
+2026-10-20 13:09:45,152 INFO o.a.j.JMeter: java.version=26.0.1
+2026-10-20 13:09:45,152 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2026-10-20 13:09:45,155 INFO o.a.j.JMeter: os.name=Windows 11
+2026-10-20 13:09:45,155 INFO o.a.j.JMeter: os.arch=amd64
+2026-10-20 13:09:45,156 INFO o.a.j.JMeter: os.version=10.0
+2026-10-20 13:09:45,156 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-10-20 13:09:45,156 INFO o.a.j.JMeter: java.awt.headless=true
+2026-10-20 13:09:45,156 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-10-20 13:09:45,156 INFO o.a.j.JMeter: Available Processors =16
+2026-10-20 13:09:45,167 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-10-20 13:09:45,167 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-10-20 13:09:45,167 INFO o.a.j.JMeter: JMeterHome=C:\Program Files\apache-jmeter-5.6.3
+2026-10-20 13:09:45,167 INFO o.a.j.JMeter: user.dir  =C:\Users\User\demowebshop-k6-homework\jmeter
+2026-10-20 13:09:45,167 INFO o.a.j.JMeter: PWD       =C:\Users\User\demowebshop-k6-homework\jmeter
+2026-10-20 13:09:45,168 INFO o.a.j.JMeter: IP: 192.168.1.5 Name: DESKTOP-MGBPPJP FullName: DESKTOP-MGBPPJP
+2026-10-20 13:09:45,176 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Users\User\demowebshop-k6-homework\jmeter\html-report'
+2026-10-20 13:09:45,178 INFO o.a.j.s.FileServer: Default base='C:\Users\User\demowebshop-k6-homework\jmeter'
+2026-10-20 13:09:45,179 INFO o.a.j.s.FileServer: Set new base='C:\Users\User\demowebshop-k6-homework\jmeter'
+2026-10-20 13:09:45,368 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-10-20 13:09:45,385 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-10-20 13:09:45,389 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-10-20 13:09:45,392 INFO o.a.j.s.SaveService: Loading file: demowebshop-giftcard-checkout.jmx
+2026-10-20 13:09:45,420 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2026-10-20 13:09:45,439 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-20 13:09:45,439 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-20 13:09:45,440 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-20 13:09:45,440 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-20 13:09:45,440 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-10-20 13:09:45,440 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-10-20 13:09:45,467 INFO o.a.j.JMeter: Creating summariser <summary>
+2026-10-20 13:09:45,470 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2026-10-20 13:09:45,470 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: results.jtl
+2026-10-20 13:09:45,470 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: C:\Program Files\apache-jmeter-5.6.3\bin\reportgenerator.properties
+2026-10-20 13:09:45,474 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2026-10-20 13:09:45,478 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2026-10-20 13:09:45,479 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2026-10-20 13:09:45,479 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2026-10-20 13:09:45,479 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2026-10-20 13:09:45,480 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2026-10-20 13:09:45,480 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2026-10-20 13:09:45,480 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2026-10-20 13:09:45,480 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2026-10-20 13:09:45,480 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2026-10-20 13:09:45,485 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2026-10-20 13:09:45,485 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-10-20 13:09:45,486 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2026-10-20 13:09:45,486 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2026-10-20 13:09:45,486 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2026-10-20 13:09:45,486 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2026-10-20 13:09:45,486 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-10-20 13:09:45,486 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-10-20 13:09:45,486 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-10-20 13:09:45,487 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-10-20 13:09:45,487 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2026-10-20 13:09:45,487 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2026-10-20 13:09:45,487 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2026-10-20 13:09:45,488 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2026-10-20 13:09:45,488 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2026-10-20 13:09:45,488 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2026-10-20 13:09:45,495 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-10-20 13:09:45,496 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-10-20 13:09:45,496 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-10-20 13:09:45,500 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-10-20 13:09:45,500 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-10-20 13:09:45,589 INFO o.a.j.JMeter: Running test (1792487385589)
+2026-10-20 13:09:45,604 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Gift Card Buyers
+2026-10-20 13:09:45,604 INFO o.a.j.e.StandardJMeterEngine: Starting 5 threads for group Gift Card Buyers.
+2026-10-20 13:09:45,604 INFO o.a.j.e.StandardJMeterEngine: Thread will start next loop on error
+2026-10-20 13:09:45,604 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=5 ramp-up=10 delayedStart=false
+2026-10-20 13:09:45,611 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-10-20 13:09:45,611 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-10-20 13:09:45,611 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-10-20 13:09:45,611 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-10-20 13:09:45,611 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-10-20 13:09:45,611 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-10-20 13:09:45,612 INFO o.a.j.t.JMeterThread: Thread started: Gift Card Buyers 1-1
+2026-10-20 13:09:47,610 INFO o.a.j.t.JMeterThread: Thread started: Gift Card Buyers 1-2
+2026-10-20 13:09:47,624 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-MGBPPJP
+2026-10-20 13:09:47,633 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-10-20 13:09:47,790 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2026-10-20 13:09:47,801 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2026-10-20 13:09:47,802 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2026-10-20 13:09:48,001 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2026-10-20 13:09:48,005 INFO o.a.j.u.SSLManager: KeyStore created OK
+2026-10-20 13:09:48,006 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2026-10-20 13:09:49,613 INFO o.a.j.t.JMeterThread: Thread started: Gift Card Buyers 1-3
+2026-10-20 13:09:51,607 INFO o.a.j.t.JMeterThread: Thread started: Gift Card Buyers 1-4
+2026-10-20 13:09:53,614 INFO o.a.j.t.JMeterThread: Thread started: Gift Card Buyers 1-5
+2026-10-20 13:09:58,632 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:00,289 INFO o.a.j.r.Summariser: summary +     24 in 00:00:15 =    1.6/s Avg:   556 Min:   262 Max:  1419 Err:     0 (0.00%) Active: 5 Started: 5 Finished: 0
+2026-10-20 13:10:00,289 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:00,901 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:01,343 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:02,460 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:02,826 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:03,592 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:03,878 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:04,869 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:04,869 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:05,369 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:05,744 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:05,934 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:06,387 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:06,399 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:06,772 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:07,703 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:08,069 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:08,106 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:08,244 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:08,568 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:09,499 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:10,180 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:10,187 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:10,258 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:10,690 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:11,569 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:12,181 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:12,272 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:12,340 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:13,077 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:13,701 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:13,891 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:14,326 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:14,462 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:15,130 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:15,817 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:16,098 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:16,336 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:16,533 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:17,457 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:17,488 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:17,971 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:18,074 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:18,734 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:19,218 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:19,481 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:19,920 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:20,372 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:20,445 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:20,943 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:21,272 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:21,698 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:21,707 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:22,547 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:23,027 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:23,062 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:23,503 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:24,004 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:24,364 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:24,831 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:25,517 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:25,657 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:25,719 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:26,056 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:26,927 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:27,114 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:27,118 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:27,550 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:27,602 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:29,015 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:29,139 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:29,196 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:29,511 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:29,675 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:30,920 INFO o.a.j.r.Summariser: summary +     77 in 00:00:31 =    2.5/s Avg:   442 Min:   246 Max:   968 Err:     0 (0.00%) Active: 5 Started: 5 Finished: 0
+2026-10-20 13:10:30,920 INFO o.a.j.r.Summariser: summary =    101 in 00:00:45 =    2.2/s Avg:   469 Min:   246 Max:  1419 Err:     0 (0.00%)
+2026-10-20 13:10:30,922 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:31,080 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:31,317 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:31,796 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:31,830 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:32,417 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:32,717 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:33,329 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:33,526 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:34,093 INFO o.a.j.t.JMeterThread: Thread is done: Gift Card Buyers 1-1
+2026-10-20 13:10:34,093 INFO o.a.j.t.JMeterThread: Thread finished: Gift Card Buyers 1-1
+2026-10-20 13:10:34,680 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:34,939 INFO o.a.j.t.JMeterThread: Thread is done: Gift Card Buyers 1-3
+2026-10-20 13:10:34,939 INFO o.a.j.t.JMeterThread: Thread finished: Gift Card Buyers 1-3
+2026-10-20 13:10:35,488 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:35,592 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:36,183 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:37,377 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:38,088 INFO o.a.j.t.JMeterThread: Thread is done: Gift Card Buyers 1-2
+2026-10-20 13:10:38,088 INFO o.a.j.t.JMeterThread: Thread finished: Gift Card Buyers 1-2
+2026-10-20 13:10:38,380 INFO o.a.j.t.JMeterThread: Thread is done: Gift Card Buyers 1-4
+2026-10-20 13:10:38,381 INFO o.a.j.t.JMeterThread: Thread finished: Gift Card Buyers 1-4
+2026-10-20 13:10:39,775 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-10-20 13:10:41,714 INFO o.a.j.t.JMeterThread: Thread is done: Gift Card Buyers 1-5
+2026-10-20 13:10:41,714 INFO o.a.j.t.JMeterThread: Thread finished: Gift Card Buyers 1-5
+2026-10-20 13:10:41,715 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-10-20 13:10:41,717 INFO o.a.j.r.Summariser: summary +     19 in 00:00:11 =    1.8/s Avg:   471 Min:   244 Max:   717 Err:     0 (0.00%) Active: 0 Started: 5 Finished: 5
+2026-10-20 13:10:41,718 INFO o.a.j.r.Summariser: summary =    120 in 00:00:56 =    2.1/s Avg:   469 Min:   244 Max:  1419 Err:     0 (0.00%)
+2026-10-20 13:10:41,718 INFO o.a.j.JMeter: Generating Dashboard
+2026-10-20 13:10:41,718 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2026-10-20 13:10:41,736 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2026-10-20 13:10:41,919 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2026-10-20 13:10:41,919 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2026-10-20 13:10:41,924 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2026-10-20 13:10:41,924 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2026-10-20 13:10:41,935 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2026-10-20 13:10:41,939 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2026-10-20 13:10:41,939 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2026-10-20 13:10:41,940 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2026-10-20 13:10:41,985 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2026-10-20 13:10:41,985 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2026-10-20 13:10:41,986 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2026-10-20 13:10:41,986 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2026-10-20 13:10:41,996 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2026-10-20 13:10:41,997 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 840 samples
+2026-10-20 13:10:41,997 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2026-10-20 13:10:41,997 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2026-10-20 13:10:41,997 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2026-10-20 13:10:41,998 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2026-10-20 13:10:41,998 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2026-10-20 13:10:41,998 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2026-10-20 13:10:42,002 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2026-10-20 13:10:42,003 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2026-10-20 13:10:42,004 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2026-10-20 13:10:42,004 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2026-10-20 13:10:42,004 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 2100 samples
+2026-10-20 13:10:42,004 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 420 samples
+2026-10-20 13:10:42,005 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 140 samples
+2026-10-20 13:10:42,006 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 140 samples produced in 206ms on channel 0
+2026-10-20 13:10:42,006 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2026-10-20 13:10:42,180 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2026-10-20 13:10:42,180 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2026-10-20 13:10:42,182 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2026-10-20 13:10:42,184 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2026-10-20 13:10:42,186 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to C:\Users\User\demowebshop-k6-homework\jmeter\html-report\statistics.json
+2026-10-20 13:10:42,281 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2026-10-20 13:10:42,288 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: C:\Users\User\demowebshop-k6-homework\jmeter\html-report
+2026-10-20 13:10:42,580 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: C:\Users\User\demowebshop-k6-homework\jmeter\html-report, creating folder structure
+2026-10-20 13:10:42,588 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'C:\Program Files\apache-jmeter-5.6.3\bin\report-template' to 'C:\Users\User\demowebshop-k6-homework\jmeter\html-report', got message: C:\Users\User\demowebshop-k6-homework\jmeter\html-report, found non empty folder with following content [C:\Users\User\demowebshop-k6-homework\jmeter\html-report\statistics.json], will be ignored
+2026-10-20 13:10:43,351 INFO o.a.j.JMeter: Dashboard generated
